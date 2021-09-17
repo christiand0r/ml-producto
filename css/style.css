@@ -563,7 +563,10 @@ hr {
 @media screen and (min-width: 1040px) {
   .nav-top > button,
   .nav-mobile,
-  .product-mobile {
+  .product-mobile,
+  .app,
+  .nav-footer-mobile,
+  .nav-footer-user-info {
     display: none;
   }
 
