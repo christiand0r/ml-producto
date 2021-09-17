@@ -373,6 +373,10 @@ hr {
   color: var(--blackOffer);
 }
 
+.seller-description p {
+  font-size: 1rem;
+}
+
 .table-container {
   border-radius: 6px;
   width: 100%;
@@ -676,6 +680,7 @@ hr {
   .product-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .breadcrumb > ul,
@@ -759,6 +764,8 @@ hr {
 
   .product-aside {
     width: 368px;
+    position: sticky;
+    top: 0;
     height: fit-content;
   }
 
@@ -767,6 +774,7 @@ hr {
     border-radius: 8px;
     border: 1px solid var(--grayThumb);
     margin-bottom: 1rem;
+    background-color: var(--white);
   }
 
   .product-title {
@@ -857,5 +865,9 @@ hr {
   .other-char-list > ul > li {
     width: 49%;
     padding: 0 24px 12px 0;
+  }
+
+  .seller-description p {
+    font-size: 1.25rem;
   }
 }
